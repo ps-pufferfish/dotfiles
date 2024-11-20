@@ -2,7 +2,7 @@ source $HOME/.bash_profile
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='git --git-dir=$HOME/.dotfiles/.git/ --work-tree=$HOME'
 
 export PATH="/Users/nathaniel.manley/Dev/depot_tools:$PATH"
 
